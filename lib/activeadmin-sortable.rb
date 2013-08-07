@@ -10,7 +10,6 @@ module ActiveAdmin
           resource.insert_at params[:position].to_i
           head 200
         end
-        
       end
     end
 
